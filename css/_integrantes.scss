@@ -1,0 +1,39 @@
+.fondo-integrantes {
+    background: url(../imagenes/space.jpg) center center fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+ 
+.main-integ{
+    color: rgb(255, 255, 255);
+    font: {
+        size: 50px;
+        family: Verdana, Geneva, Tahoma, sans-serif ;
+    }
+}
+
+.main-integ-estilo{
+    ul{
+        li{
+            padding: 100px;
+            h4{
+                font: {
+                size:30px;
+                family:Verdana, Geneva, Tahoma, sans-serif ;
+            }
+                color: white;
+            }
+            p{
+                font: {
+                    size: 20px;
+                    family: 'Gemunu Libre', sans-serif;
+                }
+                color: rgb(209, 117, 12);
+            }
+            img{
+                border: solid white;
+            }
+        }
+    }
+}

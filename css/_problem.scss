@@ -1,0 +1,48 @@
+.fondo-pbm {
+    
+    background: url(../imagenes/hand-painted-watercolor-background-with-sky-and-clouds-shape.png.jpg) center center fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.sec-problem {
+    
+       /*  /* width: 40%;
+        height: auto;
+        margin-left: 30%;
+        margin-top: 15px; */
+        
+
+
+        .titulo-d{
+            font-size: 30px;
+            color:white;
+            background-color: rgba(81, 217, 235, 0.5);
+            border-radius: 8px;
+        }
+        .div-p-problem{
+            font: {
+                size: 20px;
+                family: 'Gemunu Libre', sans-serif;
+            }
+            background-color: rgba(81, 217, 235, 0.5);;
+            border-radius: 8px;
+        }
+
+}
+.problem-img {
+    display: flex;
+    flex-direction: row;
+}
+.img-tam {
+    width: 340px;
+    height: auto;
+    margin: 10px;
+}
+@media (min-width:768){
+.div-p-problem {
+    width: 70%;
+    height: auto;
+
+}
+}

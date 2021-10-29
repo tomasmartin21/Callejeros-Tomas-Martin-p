@@ -1,0 +1,83 @@
+
+.fondo-galeria{
+    background: url(../imagenes/fondos-de-colores-9.jpeg) center center fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.titulo-galeria{
+    color: white;
+    margin-top: 90px;
+    font: {
+        size: 50px;
+        font-family: 'Zen Kurenaido', sans-serif;
+    }
+    
+}
+.subtitle-galeria {
+    color: white;
+
+    font: {
+        size: 25px;
+        family: 'Zen Kurenaido', sans-serif;
+    }
+        }
+
+
+.main-div-img1 {
+    width: 100%;
+    height: auto;
+    
+}
+
+.flex-main-galeria { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+           
+
+    .estilo-img-main {
+        width: 30%;
+        height: auto;
+        padding: 15px;
+        
+    }
+}
+.style-galeria-album {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows:repeat(2, 1fr) ;
+    padding: 1rem;
+   
+ }
+
+ iframe{
+     width: 80%;
+     height: 315px;
+ }
+ 
+   
+ @media only screen and (max-width: 1240px)  {
+    .style-galeria-album {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr );
+        padding: 1rem;
+        
+       
+     }
+
+
+
+ }
+ @media only screen and (max-width: 768px){
+    .estilo-img-main{
+        min-width: 20em;
+        
+        
+    }
+ }
+
+   
+    
+    

@@ -1,0 +1,54 @@
+@import "_home.scss";
+@import "_footer.scss";
+@import "_problem.scss";
+@import "_Discografia.scss";
+@import "_integrantes.scss";
+@import "_galeria.scss";
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fondo-index{
+    background: url(../imagenes/abstract-1522884.jpg) center center fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+   
+      }
+  
+
+
+.bg--nav {
+    background-color: black;
+}
+
+.logo-header {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link { /* CAMBIA COLOR A LAS LETRAS DEL MENU */
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover { /* COLOR ROJO AL PASAR MOUSE POR LETRAS DE MENU */
+    color: red;
+}
+
+.navbar-light .navbar-toggler { /* PARA QUE EL MENU BURGER TENGA BORDE */
+    color: rgba(255,255,255,.55);
+    border-color: rgba(255,255,255,.1);
+}
+
+.navbar-light .navbar-toggler-icon { /* PARA QUE ICONO BURGER SEA BLANCO */
+    filter: invert(100%) sepia(98%) saturate(10%) hue-rotate(169deg) brightness(102%) contrast(100%);
+}

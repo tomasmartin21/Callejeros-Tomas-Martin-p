@@ -1,0 +1,27 @@
+
+.sec-index{
+    background-color: rgba(0,0,0,0.7); 
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.63);
+    
+        .titulo-d2 {
+            
+                color:red;
+                font-size: 50px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif ;
+                 margin:  0% 2% 0% 2% ; 
+                text-align: center;
+                 
+        }
+        .p-index{
+            font-size: 20px;
+                font-family: 'Gemunu Libre', sans-serif;
+                margin: 10px ;
+                color: white;
+                
+        }
+}
+.espacio-index{
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}

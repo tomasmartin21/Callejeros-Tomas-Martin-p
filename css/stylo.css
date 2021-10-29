@@ -1,0 +1,332 @@
+.sec-index {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5), 0 3px 6px rgba(0, 0, 0, 0.63);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5), 0 3px 6px rgba(0, 0, 0, 0.63);
+}
+
+.sec-index .titulo-d2 {
+  color: red;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0% 2% 0% 2%;
+  text-align: center;
+}
+
+.sec-index .p-index {
+  font-size: 20px;
+  font-family: 'Gemunu Libre', sans-serif;
+  margin: 10px;
+  color: white;
+}
+
+.espacio-index {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.footer .redes-icon {
+  -webkit-filter: invert(29%) sepia(80%) saturate(2177%) hue-rotate(335deg) brightness(103%) contrast(110%);
+          filter: invert(29%) sepia(80%) saturate(2177%) hue-rotate(335deg) brightness(103%) contrast(110%);
+}
+
+.footer .derechos {
+  border-top: 1px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)), -webkit-gradient(linear, left top, left bottom, from(#ff5252), to(#ff0f0f));
+  background-image: linear-gradient(#000, #000), linear-gradient(#ff5252, #ff0f0f);
+  margin-top: 1rem;
+}
+
+.footer .copyright {
+  text-align: center;
+  color: white;
+}
+
+.fondo-pbm {
+  background: url(../imagenes/hand-painted-watercolor-background-with-sky-and-clouds-shape.png.jpg) center center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.sec-problem {
+  /*  /* width: 40%;
+        height: auto;
+        margin-left: 30%;
+        margin-top: 15px; */
+}
+
+.sec-problem .titulo-d {
+  font-size: 30px;
+  color: white;
+  background-color: rgba(81, 217, 235, 0.5);
+  border-radius: 8px;
+}
+
+.sec-problem .div-p-problem {
+  font-size: 20px;
+  font-family: 'Gemunu Libre', sans-serif;
+  background-color: rgba(81, 217, 235, 0.5);
+  border-radius: 8px;
+}
+
+.problem-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.img-tam {
+  width: 340px;
+  height: auto;
+  margin: 10px;
+}
+
+@media (min-width: 768) {
+  .div-p-problem {
+    width: 70%;
+    height: auto;
+  }
+}
+
+.fondo-bio {
+  background: url(../imagenes/fondo-biografia.jpg) center center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+/* INICIO MAIN */
+.titulo-bio {
+  font-size: 50px;
+  color: #f7f7f7;
+  margin-left: 10px;
+}
+
+.style-bio {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  border: solid 4px white;
+}
+
+.style-bio .img-bio {
+  width: 60%;
+  height: auto;
+}
+
+.style-bio .img-bio2 {
+  width: 45%;
+  height: auto;
+}
+
+.style-bio .subtitulo-bio {
+  font-size: 30;
+  color: black;
+}
+
+.style-bio li {
+  color: red;
+  background-color: black;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+/* fin del main */
+/* INICIO ARTICLE */
+.titulo-article-bio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: red;
+  background-color: black;
+  border-radius: 8px;
+  width: 40%;
+  height: auto;
+}
+
+.margin-article-bio {
+  margin: 50px 0 50px 0;
+}
+
+.fondo-integrantes {
+  background: url(../imagenes/space.jpg) center center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.main-integ {
+  color: white;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-integ-estilo ul li {
+  padding: 100px;
+}
+
+.main-integ-estilo ul li h4 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.main-integ-estilo ul li p {
+  font-size: 20px;
+  font-family: 'Gemunu Libre', sans-serif;
+  color: #d1750c;
+}
+
+.main-integ-estilo ul li img {
+  border: solid white;
+}
+
+.fondo-galeria {
+  background: url(../imagenes/fondos-de-colores-9.jpeg) center center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.titulo-galeria {
+  color: white;
+  margin-top: 90px;
+  font-size: 50px;
+  font-font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.subtitle-galeria {
+  color: white;
+  font-size: 25px;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.main-div-img1 {
+  width: 100%;
+  height: auto;
+}
+
+.flex-main-galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-main-galeria .estilo-img-main {
+  width: 30%;
+  height: auto;
+  padding: 15px;
+}
+
+.style-galeria-album {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+iframe {
+  width: 80%;
+  height: 315px;
+}
+
+@media only screen and (max-width: 1240px) {
+  .style-galeria-album {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .estilo-img-main {
+    min-width: 20em;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fondo-index {
+  background: url(../imagenes/abstract-1522884.jpg) center center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.bg--nav {
+  background-color: black;
+}
+
+.logo-header {
+  width: 5em;
+  height: 5em;
+  border-radius: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  /* CAMBIA COLOR A LAS LETRAS DEL MENU */
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  /* COLOR ROJO AL PASAR MOUSE POR LETRAS DE MENU */
+  color: red;
+}
+
+.navbar-light .navbar-toggler {
+  /* PARA QUE EL MENU BURGER TENGA BORDE */
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-light .navbar-toggler-icon {
+  /* PARA QUE ICONO BURGER SEA BLANCO */
+  -webkit-filter: invert(100%) sepia(98%) saturate(10%) hue-rotate(169deg) brightness(102%) contrast(100%);
+          filter: invert(100%) sepia(98%) saturate(10%) hue-rotate(169deg) brightness(102%) contrast(100%);
+}
+/*# sourceMappingURL=stylo.css.map */

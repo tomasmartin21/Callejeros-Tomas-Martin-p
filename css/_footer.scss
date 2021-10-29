@@ -1,0 +1,26 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    .redes{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    }
+    .redes-icon{
+        filter: invert(29%) sepia(80%) saturate(2177%) hue-rotate(335deg) brightness(103%) contrast(110%);
+    }
+    .derechos {
+        border-top: 1px solid transparent;
+      background-clip: padding-box, border-box;
+      background-origin: padding-box, border-box;
+      background-image: linear-gradient(#000, #000), linear-gradient(hsl(0, 100%, 66%), hsl(0, 100%, 53%));
+        margin-top: 1rem;
+    }
+    .copyright{
+        text-align: center;
+        color: white;
+    }
+}
